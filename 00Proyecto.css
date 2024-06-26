@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background-image:url(fondoRosa.jpg);
+    background-attachment:fixed;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(MariposasInicio.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 235px;
+    cursor: pointer;
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #bc0168;
+    position: absolute;
+    left: 0;
+    bottom: -10px; 
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1
+{
+    font-family: "American Typewriter";
+    color: #7c255c;
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p
+{
+    text-align: justify;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #b751cb;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span
+{
+    background: #b751cb;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span
+{
+    width: 100%;
+}
+button:hover
+{
+    border: none;
+}
+.signi 
+{
+    top: 100px;
+    font-size: 25px;
+    font-family: Century ;
+    color: #7d1769;
+    text-align: center;
+}
+.significado 
+{
+    position: relative;
+    width: 90%;
+    right: -70px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Verdana;
+    color: beige;
+}
+.Carac
+{
+    top: 100px;
+    font-size: 25px;
+    font-family: Century ;
+    color: #7d1769;
+    text-align: center;
+}
+.car
+{
+    position: relative;
+    width: 90%;
+    right: -70px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Verdana;
+    color: beige;
+}
+.Caracte
+{
+    font-size: 18px;
+    width: 100%;
+    top: 150px;
+    font-family: Verdana;
+    color: beige;
+    text-align: justify;
+}
+h2,p,h3,img, h4{
+    margin-top: 20px;
+}
+.caracteristicas
+{
+    position: relative;
+    width: 70%;
+    right: -55px;
+}
+.imagen003
+{
+    position: relative;
+    width: 22%;
+    left: 1165px;
+    top: -450px;
+    border-radius: 20px;
+}
+.magenta
+{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    top: -350px;
+}
+.tipos0
+{
+    position: relative;
+    font-size: 55px;
+    font-family: "Brush Script MT" ;
+    color: #3a062f;
+    text-align: center;
+    top: -370px;
+}
+
+.nocturnas
+{
+    position: relative;
+    right: -70px;
+    width: 90%;
+    top: -320px;
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: justify;
+    color: #fff;
+}
+.titulo2
+{
+    
+    position: relative;
+    top: -330px;
+    font-size: 25px;
+    font-family: Century ;
+    color: #7d1769;
+    text-align: center;
+}
+.subtitulo1
+{
+    position: relative;
+    color: #9c4170;
+    font-size: 25px;
+    font-family: "Geneva";
+    top: -270px;
+    right: -55px;
+    text-decoration: underline;
+}
+.ejemplo1
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -250px;
+}
+.noctu1
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -250px;
+    text-align: justify;
+}
+.ejemImg1
+{
+    position: relative;
+    width: 20%;
+    right: -1150px;
+    top: -480px;
+    border-radius: 10px;
+    border-color: #540664;
+}
+.ejemplo2
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -390px;
+}
+.noctu2
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -390px;
+    text-align: justify;
+}
+.ejemImg2
+{
+    position: relative;
+    width: 20%;
+    right: -1150px;
+    top: -610px;
+    border-radius: 10px;
+}
+.titulo3
+{
+    position: relative;
+    top: -430px;
+    text-align: center;font-size: 25px;
+    font-family: Century ;
+    color: #7d1769;
+}
+.diurnas
+{
+    position: relative;
+    right: -70px;
+    width: 90%;
+    top: -420px;
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: justify;
+    color: #fff;
+}
+.subtitulo2
+{
+    position: relative;
+    color: #9c4170;
+    font-size: 25px;
+    font-family: "Geneva";
+    top: -360px;
+    right: -55px;
+    text-decoration: underline;
+}
+.ejemplo3
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -330px;
+}
+.diurna1
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -330px;
+    text-align: justify;
+}
+.ejemImg3
+{
+    position: relative;
+    width: 25%;
+    right: -1120px;
+    top: -235px;
+    border-radius: 10px;
+}
+.ejemplo4
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -430px;
+}
+.diurna2
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -430px;
+    text-align: justify;
+}
+.ejemImg4
+{
+    position: relative;
+    width: 17%;
+    right: -1180px;
+    top: -630px;
+    border-radius: 10px;
+}
+.titulo4
+{
+    position: relative;
+    top: -490px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century ;
+    color: #7d1769;
+}
+.pequeñas
+{
+    position: relative;
+    right: -70px;
+    width: 90%;
+    top: -490px;
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: justify;
+    color: #fff;
+}
+.subtitulo3
+{
+    position: relative;
+    color: #9c4170;
+    font-size: 25px;
+    font-family: "Geneva";
+    top: -420px;
+    right: -55px;
+    text-decoration: underline;
+}
+.ejemplo5
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -390px;
+}
+.pequeña1
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -390px;
+    text-align: justify;
+}
+.ejemImg5
+{
+    position: relative;
+    width: 18%;
+    right: -1180px;
+    top: -550px;
+    border-radius: 10px;
+}
+.ejemplo6
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -440px;
+}
+.pequeña2
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -440px;
+    text-align: justify;
+}
+.ejemImg6
+{
+    position: relative;
+    width: 18%;
+    right: -1180px;
+    top: -650px;
+    border-radius: 10px;
+}
+.titulo5
+{
+    position: relative;
+    top: -490px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century ;
+    color: #7d1769;
+}
+.grandes
+{
+    position: relative;
+    right: -70px;
+    width: 90%;
+    top: -490px;
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: justify;
+    color: #fff;
+}
+.subtitulo4
+{
+    position: relative;
+    color: #9c4170;
+    font-size: 25px;
+    font-family: "Geneva";
+    top: -420px;
+    right: -55px;
+    text-decoration: underline;
+}
+.ejemplo7
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -380px;
+}
+.grande1
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -380px;
+    text-align: justify;
+}
+.ejemImg7
+{
+    position: relative;
+    width: 18%;
+    right: -1180px;
+    top: -580px;
+    border-radius: 10px;
+}
+.ejemplo8
+{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: #d421b0;
+    top: -450px;
+}
+.grande2
+{
+    position: relative;
+    font-family: Verdana;
+    font-size: 18px;
+    color: beige;
+    width: 68%;
+    right: -55px;
+    top: -450px;
+    text-align: justify;
+}
+.ejemImg8
+{
+    position: relative;
+    width: 18%;
+    right: -1180px;
+    top: -630px;
+    border-radius: 10px;
+}
+/* cartas informativas de ejemplos de mariposas */
+.titulo8
+{
+    position: relative;
+    text-align: center;
+    color: #7d1769;
+    font-size: 30px;
+    font-family: "Brush Script MT";
+    top: -550px;
+}
+.container-card{
+    width: 100%;
+    position: relative;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    top: -500px;
+}
+.title-cards{
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background:#be3390;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido-card{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido-card h3{
+    margin-bottom: 15px;
+    color: #fffefe;
+}
+.card .contenido-card p{
+    line-height: 1.8;
+    color: #fffefe;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card .contenido-card a{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .container-card1{
+        flex-wrap: wrap;
+    }
+    .card1{
+        margin: 15px;
+    }
+}
+/*separador*/
+.imagen04
+{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    top: -600px;
+}
+/* redes sociales */
+.al {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 8400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.al .il {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+.al .il a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+  }
+.al .il a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ff10d7;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+.al .il a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff10d7;
+  }
+  
+.al .il a:hover {
+    color: #ff10d7;
+    box-shadow: 0 0 5px #ff10d7;
+    text-shadow: 0 0 5px #ff10d7;
+  }  
+  /*Pie de página*/
+footer
+{
+    max-width: 100%;
+    height: 150px;
+    background-color: #5e2045df;
+    margin: 0 auto;
+    border-radius: 0;
+    color: rgb(254, 203, 230);
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 20px;
+}
+footer a
+{
+    color: rgb(204, 117, 163);
+    text-decoration: none;
+}
+footer a:hover 
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(16, 15, 17, 0.966);
+    background-attachment:fixed;
+}
+h2, h3, p
+{
+    margin-top: 20px;
+}
+.banner
+{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar
+{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo
+{
+  width: 235px;
+  cursor: pointer;
+  position: relative;
+  top: -30px;
+}
+.navbar ul li
+{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a
+{
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after
+{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #bc0168;
+  position: absolute;
+  left: 0;
+  bottom: -10px; 
+  transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+  width: 100%;
+}
+.imagenpricipal
+{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: -50px;
+}
+.button {
+    position: relative;
+    top: -50px;
+    right: -150px;
+    display: inline-block;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  
+  .button:hover 
+  {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #8c4ac3 , 0 0 70px #8c4ac3  , 0 0 80px #8c4ac3  , 0 0 100px #8c4ac3  ;
+  }
+  .titulo01
+  {
+    position: relative;
+    font-size: 30px;
+    font-family: Century;
+    color: rgb(144, 13, 129);
+    right: -50px;
+    -webkit-transition: color 1s linear;
+    transition: color 1s linear;
+  }
+  .titulo01:hover
+  {
+    text-decoration: underline;
+    color: rgba(165, 20, 100, 0.916);
+  }
+  .text1
+  {
+    width: 65%;
+    position: relative;
+    right: -50px;
+    font-size: 18px;
+    font-family: Verdana;
+    color: aliceblue;
+    text-align: justify;
+  }
+  .image01
+{
+    position: relative;
+    width: 20%;
+    height: 400px;
+    right: -1130px;
+    top: -390px;
+    border-radius: 10px;
+}
+.titulo02
+{
+    position: relative;
+    font-size: 30px;
+    font-family: Century;
+    color: rgb(144, 13, 129);
+    right: -50px;
+    top: -200px;
+    -webkit-transition: color 1s linear;
+    transition: color 1s linear;
+}
+.titulo02:hover
+{
+    text-decoration: underline;
+    color: rgba(165, 20, 100, 0.916);
+}
+.text2
+{
+    position: relative;
+    width: 90%;
+    font-size: 18px;
+    right: -50px;
+    font-family: Verdana;
+    text-align: justify;
+    color: aliceblue;
+    background-color: lightcoral;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+    top: -200px;
+}
+.text2:hover
+{
+  background-color: rgb(162, 87, 112);;
+}
+.rosa0
+{
+    position:relative;
+    width:1577px;
+    height:70px;
+    top: -100px;
+}
+.titulo03
+{
+    position: relative;
+    font-family: "Gamja Flower", Helvetica;
+    color: rgb(144, 13, 129);
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+  position:relative;
+}
+.caja{
+width: 90%;
+height: 400px;
+background-color: #30B037;
+color: #FFF;
+text-align: center;
+text-align: justify;
+line-height:30px;
+margin: 30px;
+float: left;
+font-size: 18px;
+font-family:cursive;
+right: -50px;
+position: relative;
+}
+.caja1{
+background-color:lightcoral;
+-webkit-transition: background-color 1s linear;
+transition: background-color 1s linear;}
+
+.caja1:hover{
+background-color:rgb(162, 87, 112);}
+
+.imagen02
+{
+  position: relative;
+  width: 90%;
+  height: 600px;
+  right: -80px;
+  top: 100px;
+  border-color: rgb(134, 136, 91);
+  border-style: ridge;
+  border-width: 10px;
+}
+.titulo04
+{
+  position: relative;
+  top: 240px;
+  color: rgb(144, 13, 129);
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cards*/
+.container-card{
+  position: relative;
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    top: 300px;
+}
+.title-cards{
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(76, 60, 60);
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 40px;
+    overflow: hidden;
+    background:#bcb263;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido-card{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido-card h3{
+    margin-bottom: 15px;
+    color: #940606;
+}
+.card .contenido-card h3:hover
+{
+  text-decoration: underline;
+}
+.card .contenido-card p{
+    line-height: 1.8;
+    color: #070707;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .container-card1{
+        flex-wrap: wrap;
+    }
+    .card1{
+        margin: 15px;
+    }
+}
+/*Fin-Cards*/
+
+footer
+{
+  position: relative;
+    max-width: 100%;
+    height: 150px;
+    background-color: #5e2045df;
+    margin: 0 auto;
+    border-radius: 0;
+    color: rgb(254, 203, 230);
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 20px;
+    top: 3500px;
+}
+footer a
+{
+    color: rgb(204, 117, 163);
+    text-decoration: none;
+}
+footer a:hover 
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,341 @@
+body {
+  background-image:url(Fondo\ Negro.jpg);
+  background-attachment:fixed;
+  }
+  
+  img{
+  width:1574px;
+  position:relative;   
+  }
+
+h1 {
+    font-family: "Gamja Flower",sans-serif;
+    font-size: 140px;
+    color: aliceblue;
+    position:relative;
+    text-align: center;
+    top:-10px;
+}
+
+.gamja-flower-regular {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ .patrick-hand-regular {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.monarca1{
+    position: relative; 
+    width: 450px;
+    top:100px;
+    left:50px;
+}
+
+.naranja{
+  position:relative;
+  width:1577px;
+  height:40px;
+  top:200px;
+}
+h2{
+   font-family:"Lobster Two", sans-serif;
+   position: relative;
+   font-size:45px;
+   color: coral;
+   text-align: center;
+   top:-500px;
+}
+
+.recorrido{
+  font-size:45px;
+  color: coral;
+  position: relative;
+  top:-90px;
+  text-align: center;
+}
+
+.gifrecorrido{
+  position: relative;
+  right: -150px;
+  top:-550px;
+  width:660px;
+  height:260px;
+  border-color: rgb(219, 127, 51);
+  border-style:double;
+  border-width:10px;
+}
+
+p{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-450px;
+  left:540px;
+  margin-right:600px;
+  text-align: justify;
+  overflow-x: hidden;
+}
+
+.migracion{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-450px;
+  left:60px;
+  margin-right:480px;
+  text-align:justify;
+  background-color: rgb(163, 106, 31);
+}
+.migracion2{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-1500px;
+  left:80px;
+  margin-left:300px;
+  text-align:justify;
+  background-color: rgb(163, 106, 31);
+}
+
+ .paises{
+  width:300px;
+  height:800px;
+  position:relative;
+  top:355px;
+  right:-1250px;
+ }
+
+ .mFlor{
+  position:relative;
+  width:300px;
+ }
+
+ .mFlor2{
+  position:relative;
+  width:500px;
+  top:3150px;
+  right:-1000px;
+ }
+ .dosmigraciones{
+  font-size:30px;
+  color: coral;
+  position: relative;
+  left:-180px;
+  top:-1360px;
+ }
+
+ .dostipos{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-1350px;
+  left:60px;
+  margin-right:480px;
+  text-align:justify;
+  background-color: rgb(163, 106, 31);
+ }
+
+.mexico{
+  font-size:45px;
+  color: coral;
+  position: relative;
+  top:-1150px;
+  text-align: center;
+}
+
+.m_Mexico{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-1100px;
+  left:60px;
+  margin-right:150px;
+  text-align:justify;
+}
+.diaMuertos{
+  position:relative;
+  width:1200px;
+  top:-1020px;
+  left:180px;
+  border:10px solid;
+  border-color: darkorange;
+}
+
+.infDIAMUERTOS{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-900px;
+  left:60px;
+  margin-right:800px;
+  text-align:justify
+}
+.altar1{
+width:500px;
+position:relative;
+right:-1000px;
+top:-1490px;
+height:300px;;
+}
+
+.altar2{
+  width:500px;
+  position:relative;
+  right:-496px;
+  top:-1200px;
+}
+
+.textovideo{
+  font-size:40px;
+  color: rgb(218, 171, 42);
+  position: relative;
+  top:-1100px;
+  text-align: center;
+}
+
+.videoM{
+  position:relative;
+  top:-1020px;
+  left:350px;
+  width:900px;
+  height:500px ;
+}
+
+.naranja2{
+  position:relative;
+  width:1577px;
+  height:40px;
+  top:-870px;
+}
+
+.extincion{
+  font-size:45px;
+  color: coral;
+  position: relative;
+  top:-800px;
+  left:-300px;
+}
+
+.infEXT{
+  font-family:"Patrick Hand", cursive;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  position:relative;
+  top:-750px;
+  left:60px;
+  margin-right:700px;
+  text-align:justify
+}
+.link {
+  font-family:"Patrick Hand", cursive;
+  font-size: 25px;
+  color: rgb(230, 159, 53);
+  position:relative;
+  top:-700px;
+  left:60px;
+  margin-right:100px;
+  text-align:justify;
+  
+}
+
+
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body
+{
+  background-color: rgb(220, 159, 190);
+}
+.banner
+{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.navbar
+{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo
+{
+  width: 235px;
+  cursor: pointer;
+}
+.navbar ul li
+{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a
+{
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after
+{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #bc0168;
+  position: absolute;
+  left: 0;
+  bottom: -10px; 
+  transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+  width: 100%;
+}
+footer
+{
+  position: relative;
+  top: -580px;
+    max-width: 100%;
+    height: 150px;
+    background-color: #5e2045df;
+    margin: 0 auto;
+    border-radius: 0;
+    color: rgb(254, 203, 230);
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 20px;
+}
+footer a
+{
+    color: rgb(204, 117, 163);
+    text-decoration: none;
+}
+footer a:hover 
+{
+    text-decoration: underline;
+}
