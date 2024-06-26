@@ -1,2 +1,1 @@
-[Las Belleza y la Elegancia de las Borboletas.]
-(index.html)
+[Las Belleza y la Elegancia de las Borboletas.](index.html)
